@@ -8,8 +8,8 @@ import numpy as np
 
 from tqdm import tqdm
 
-from models import Stochastic
-from models import RoundRobin
+# from models import Stochastic
+# from models import RoundRobin
 from models import Greedy
 from models import learn_local
 from models import learn_hierarchical
@@ -22,9 +22,9 @@ if __name__ == '__main__':
     env = Env()
 
     models = [
-        RoundRobin(act_size=args.n_servers),
+        # RoundRobin(act_size=args.n_servers),
 
-        Stochastic(act_size=args.n_servers),
+        # Stochastic(act_size=args.n_servers),
 
         Greedy(act_size=args.n_servers, n_servers=args.n_servers),
 
