@@ -31,8 +31,8 @@ class Env(object):
         # self.machine_usage_path = os.path.join('data', 'machine_usage.csv')
         self.container_meta_path = os.path.join('data', 'container_meta.csv')
         self.container_usage_path = os.path.join('data', 'container_usage.csv')
-        self.batch_task_path = os.path.join('data', 'batch_task_v1.csv')
-        self.batch_instance_path = os.path.join('data', 'batch_instance_v1.csv')
+        self.batch_task_path = os.path.join('data', 'batch_task.csv')
+        self.batch_instance_path = os.path.join('data', 'batch_instance.csv')
 
         #  data columns
         self.machine_meta_cols = [
